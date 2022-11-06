@@ -1,0 +1,24 @@
+<ModMetaData>
+	<name>Rename More Things</name>
+	<author>kathanon</author>
+    <packageId>kathanon.Nutra.Bob</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>Allows renaming more things in the same way you can rename stockpile zones.
+
+Currently covers shelves, production benches, weapons and nutrient paste dispensers.</description>
+	<url>https://github.com/kathanon/RimWorld-Nutra-Bob</url>
+
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId> 
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>

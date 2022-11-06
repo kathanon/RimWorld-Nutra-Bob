@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="NutrientPasteDispenser" or @Name="ShelfBase" or @Name="BenchBase" or @Name="BaseWeapon"]/comps</xpath>
+    <value>
+      <li Class="NutraBob.CompProperties_Renameable"/>
+    </value>
+  </Operation>
+  
+  <Operation Class="NutraBob.PatchOperationAddTo">
+    <xpath>Defs/ThingDef[defName="Hopper"]</xpath>
+    <value>
+      <comps>
+        <li Class="NutraBob.CompProperties_InheritRenameable">
+          <inheritFrom>NutrientPasteDispenser</inheritFrom>
+        </li>
+      </comps>
+    </value>
+  </Operation>
+</Patch>

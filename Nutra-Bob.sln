@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{45E8E6BD-1988-4EED-B803-197EBA7D0ADE}") = "Nutra-Bob", "Source\Nutra-Bob.csproj", "{96DF9245-C368-47F5-9A84-24DF271BF2E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96DF9245-C368-47F5-9A84-24DF271BF2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DF9245-C368-47F5-9A84-24DF271BF2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DF9245-C368-47F5-9A84-24DF271BF2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DF9245-C368-47F5-9A84-24DF271BF2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B40E6C7C-8DA7-4B61-9829-2AAEF00C8C94}
+	EndGlobalSection
+EndGlobal
